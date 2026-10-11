@@ -4,9 +4,7 @@
 
 **聊完了，下一步别丢。**
 
-![提醒方案示意](assets/demo.png)
 
-[观看 30 秒动效演示](https://github.com/dryan3333/reminder-intake-skill/releases/download/v0.3.0/reminder-intake-demo-v2.mp4)（交互示意，非屏幕实录）。
 
 A reusable Codex and Claude Code skill that notices actionable dates and unfinished follow-ups, then asks whether to add them to Apple Calendar, Google Calendar, or macOS Reminders.
 

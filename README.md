@@ -6,9 +6,7 @@
 
 An open-source instruction skill for **Codex and Claude Code**. It spots deadlines, unfinished plans and follow-ups in the current conversation, prepares a sensible proposal, and uses available authorized tools to create and verify a reminder.
 
-![Illustrated reminder proposal](assets/demo.png)
 
-[Watch the 30-second illustrated demo](https://github.com/dryan3333/reminder-intake-skill/releases/download/v0.3.0/reminder-intake-demo-v2.mp4). This is an animated workflow illustration, not a screen recording or proof of a connected calendar.
 
 ## How it feels
 
