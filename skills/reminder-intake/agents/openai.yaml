@@ -1,0 +1,6 @@
+interface:
+  display_name: "对话提醒助手"
+  short_description: "识别时间节点与暂停任务，询问是否加入日历或提醒事项，核对时间并避免重复创建"
+  default_prompt: "使用 $reminder-intake 检查当前对话中需要跟进的时间节点，并询问是否加入日历或提醒事项。"
+policy:
+  allow_implicit_invocation: true
