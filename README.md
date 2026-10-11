@@ -8,15 +8,21 @@ An open-source instruction skill for **Codex and Claude Code**. It spots deadlin
 
 ![Illustrated reminder proposal](assets/demo.png)
 
-[Watch the 30-second illustrated demo](https://github.com/dryan3333/reminder-intake-skill/releases/download/v0.3.0/reminder-intake-demo.mp4). This is an animated workflow illustration, not a screen recording or proof of a connected calendar.
+[Watch the 30-second illustrated demo](https://github.com/dryan3333/reminder-intake-skill/releases/download/v0.3.0/reminder-intake-demo-v2.mp4). This is an animated workflow illustration, not a screen recording or proof of a connected calendar.
 
 ## How it feels
 
-> You: “I need to deliver the revised artwork by Friday. Remind me.”
+> Turn 1: “Any ideas for a date on Friday evening?”
 >
-> AI: “Deliver revised artwork · Thursday 7 pm · your preferred reminder app.”
+> Turn 2: “Something relaxed: dinner, then a walk.”
+>
+> Turn 3: “I haven’t booked a restaurant yet. I’ll look around.”
+>
+> AI proposes: “Check restaurants and book a table · Thursday 7 pm · your preferred reminder app.”
 >
 > Choose: **Add this reminder / Adjust / Not now**.
+
+No explicit “remind me” request is needed. The example demonstrates the intended three-turn behavior, not a recording of a successful live test.
 
 The host determines whether choices appear as buttons or text. Dates and timezones are checked before writing. An explicit request is handled immediately; an actionable plan discussed over three user turns gets one proposal, without repeated nudges.
 
